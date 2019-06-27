@@ -1,6 +1,6 @@
-export const selectFood = food => {
+export const selectedFood = food => {
   return {
-    type: 'FOOD_SELECTED',
-    action: food
+    type: 'SELECTED_FOOD',
+    payload: food
   };
 };

@@ -9,7 +9,7 @@ const foodReducer = () => {
 };
 
 const selectedFoodReducer = (selectedFood = null, action) => {
-  if (action.type === 'FOOD_SELECTED') {
+  if (action.type === 'SELECTED_FOOD') {
     return action.payload;
   }
 
